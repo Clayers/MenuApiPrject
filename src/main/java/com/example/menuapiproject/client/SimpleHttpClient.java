@@ -23,4 +23,12 @@ public class SimpleHttpClient {
             return false;
         }
     }
+    public boolean post(String url, Object requestBody) {
+        try {
+            restTemplate.postForEntity(url, requestBody, Void.class);
+            return true;
+        } catch (HttpStatusCodeException ex) {
+            return false;
+        }
+    }
 }
