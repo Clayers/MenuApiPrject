@@ -1,0 +1,40 @@
+# ===== Maven / сборка =====
+target/
+.mvn/
+mvnw
+mvnw.cmd
+
+# ===== IDE =====
+.idea/
+*.iml
+*.iws
+*.ipr
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+.vscode/
+
+# ===== OS / временные файлы =====
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*~
+
+# ===== Локальные конфиги (но не основной application.properties) =====
+application-local.properties
+application-*.yml.local
+application-*.yaml.local
+
+# ===== Документация =====
+HELP.md
